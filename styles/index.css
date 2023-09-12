@@ -1,0 +1,16 @@
+.content {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+h1 {
+  color: goldenrod;
+  text-align: center;
+}
+
+iframe {
+  border: 2px solid goldenrod;
+  width: 100%;
+}

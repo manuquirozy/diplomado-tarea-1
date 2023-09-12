@@ -1,0 +1,49 @@
+h1 {
+  color: goldenrod;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+
+h2 {
+  margin: 0;
+  padding: 1rem auto;
+  margin: 1rem 0;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+label {
+  color: goldenrod;
+  width: 100px;
+}
+
+input {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.field--personal-information {
+    display: flex;
+    flex-direction: row;
+}
+
+.field--personal-information input {
+    width: 200px;
+}
+
+#submit {
+    display: block;
+  background-color: goldenrod;
+  color: black;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  width: 100px;
+}

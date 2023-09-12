@@ -1,0 +1,40 @@
+h1 {
+  color: goldenrod;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+
+table,
+td,
+th {
+  border: 1px solid goldenrod;
+}
+
+table {
+  border-radius: 4px;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 1rem auto;
+}
+
+th {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: goldenrod;
+  padding: 1rem;
+}
+
+td {
+  padding: 0.5rem;
+  color: whitesmoke;
+}
+
+tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table__container {
+  overflow-x: auto;
+  width: 100%;
+}

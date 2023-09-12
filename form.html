@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1" name="viewport">
+    <title>Hogwarts Legacy - Register</title>
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/commons.css">
+    <link rel="icon" type="image/png" href="/assets/img/icon.png">
+</head>
+
+<body>
+
+    <header>
+        <img class="image--nav" src="./assets/img/hero-logo.png" alt="Hogwarts Legacy Hero">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./table.html">Guide</a>
+        </nav>
+    </header>
+    <h1>Registration</h1>
+    <form>
+        <h2>Personal Information</h2>
+        <div class="field--personal-information">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name">
+        </div>
+        <div class="field--personal-information">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name">
+        </div>
+        <div class="field--personal-information">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <h2>Gender</h2>
+        <div class="field--gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+        </div>
+        <h2>Date of birth</h2>
+        <input type="date" value="2017-06-01" />
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
